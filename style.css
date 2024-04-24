@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: cneter;
+    padding: 10px 200px;
+}
+
+.navigation a {  
+    color: rgb(5, 5, 118);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    transition: 0.7s ease;
+}
+
+.navigation a:hover {
+    color: rgb(5, 5, 118);
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+
+.navbar-brand img  {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    height: 790px;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+.main-img {
+    width: 660px;
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+}
+.main span{
+    padding-bottom: 20px;
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #04006e;
+}
+.main h2 {
+    padding-bottom: 100px;
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #04006e;
+}
+
+.description p {
+    font-size: 1.8em;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+    color: #000;
+}
+
+.main-description {
+    padding: 0px;
+}
+
+.description span {
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(5, 5, 118);
+}
+
+.main-btn {
+    color:#fff;
+    background-color: rgb(5, 5, 118);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.187em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    background-color: #0119f4;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-flow:wrap;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(5, 5, 118);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.main-card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(219, 219, 219, 0.15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.main-card p {
+    font-size: 1.2em;
+    font-weight: 20px;
+    
+}
+
+.app {
+    padding-top: 140px;
+}
+
+.download-app {
+    background-color: rgb(5, 5, 118);
+    display: flex;
+    padding: 50px 20px;
+    height: 350px;
+    margin: 0px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.download-app h3 {
+    color: #fff;
+    font-size: 2.2em;
+    padding-bottom: 20px;
+}
+
+.download-app p {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 800px;
+}
+
+.app-img img {
+    position: absolute;
+    width: 360px;
+    height: 700px;
+    top: 2350px;
+    right: 300px;
+}
+
+.app-icon {
+    width: 100%;
+    padding-top: 60px;
+    padding-right: 40px;
+}
+
+.app-icon i {
+    color: #fff;
+    font-size: 60px;
+    padding: 0px 10px;
+    transition: 0.7s ease;
+}
+
+.app-icon i:hover {
+    transform: scale(1.05);
+}
+
+
+.app-icon span {
+    color: #fff;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    text-align: center; 
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: rgb(5, 5, 118);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.descp-forfait {
+    background-color: rgb(5, 5, 118);
+    display: flex;
+    padding: 50px 20px;
+    height: 350px;
+    margin: 0px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.descp-forfait span {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.descp-forfait p {
+    color: #fff;
+    font-size: 1.8em;
+}
+.forfait-btn {
+    color:#000;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 1000;
+    display: inline-block;
+    padding: 0.9375em 2.187em;
+    letter-spacing: 1px;
+    border-radius: 45px;
+    height: 80px;
+    width: 420px;
+    position: absolute;
+    top: 4710px;
+    right: 680px;
+    transition: 0.7s ease;
+}
+.forfait-btn:hover{
+    background-color: #0119f4;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.info-forfatit ul{
+    padding-left: 20px;
+    padding: auto;
+}
+
+.info-forfatit h3 {
+    color: rgb(5, 5, 118);
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    font-weight: 700;
+} 
+
+.montant-forfait {
+    padding-top: 15px;
+}
+.montant-forfait span {
+    color: #ffb814;
+    font-weight: 600;
+}
+
+.montant-forfait1 {
+    padding-top: 165px;
+}
+.montant-forfait1 span {
+    color: #ffb814;
+    font-weight: 600;
+}
+
+.montant-forfait2 {
+    padding-top: 135px;
+}
+.montant-forfait2 span {
+    color: #ffb814;
+    font-weight: 600;
+}
+
+.forms {
+    background: linear-gradient(45deg, #1a7dcf , #f9f9f9, #fb5353);
+    box-sizing: border-box;
+}
+
+
+.form {
+    background: #fff;
+    padding: 3em;
+    width: 1000px;
+    height: 86em;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px rgba(223, 217, 217, 0.3);
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form h2 {
+    color: rgb(5, 5, 118);
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.form div {
+    padding: 3px 0px; 
+    margin: 40px 0px;
+    font-size: 1.6em;
+    color: rgb(5, 5, 118);  
+}
+
+.location img {
+    width: 153px;
+    border-radius: 20px;
+    transform: 0.5s ease;
+}
+
+.location img:hover {
+    transform: scale(1.1);
+}
+
+.form input {
+    background: transparent;
+    width: 36em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.form textarea {
+    width: 36em;
+    height: 210px;
+    border-radius: 10px;  
+}
+
+.form input[type = submit] {
+    padding-top: 10px;
+    background-color: rgb(5, 5, 118);
+    width: 40em;
+    height: 4.5em;
+    font-size: 22.5px;
+    font-weight: 2.5em;
+    color: #fff;
+    border-radius: 20px;
+    transform: 0.5s ease;
+}
+
+.form input[type = submit]:hover {
+    transform: scale(1.05);
+    background-color: #0119f4;
+}
+
+.form-forfait {
+    background: #fff;
+    padding: 3em;
+    width: 900px;
+    height: 63em;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px rgba(223, 217, 217, 0.3);
+    box-sizing: border-box;
+}
+.form-forfait h2 {
+    color: rgb(5, 5, 118);
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+.form-forfait div {
+    padding: 3px 0px; 
+    margin: 40px 0px;
+    font-size: 1.6em;
+    color: rgb(5, 5, 118);  
+}
+.form-forfait input {
+    background: transparent;
+    width: 32em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 10px;
+}
+.form-forfait input[type = submit] {
+    padding-top: 19px;
+    margin-top: 10px;
+    background-color: rgb(5, 5, 118);
+    width: 35.4em;
+    height: 4.5em;
+    font-size: 22.5px;
+    font-weight: 2.5em;
+    color: #fff;
+    border-radius: 20px;
+    transform: 0.5s ease;
+}
+.form-forfait input[type = submit]:hover {
+    transform: scale(1.1);
+    background-color: #0119f4;
+}
+
+.form-paying {
+    background: #fff;
+    padding: 3em;
+    width: 650px;
+    height: 1320px;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px rgba(223, 217, 217, 0.3);
+    transform: 0.5s ease;
+}
+
+.form-paying h2 {
+    color: rgb(5, 5, 118);
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid silver;
+}
+
+.form-paying div {
+    padding: 4px 0px; 
+    margin: 40px 0px; 
+    font-size: 1.5em;
+    color: rgb(5, 5, 118);
+
+}
+
+.amount p {
+    padding: 4px 0px;
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(5, 5, 118);
+}
+
+.amount span {
+    color: #ff8922;
+}
+
+.form-paying input {
+    background: transparent;
+    width: 22em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.form-paying input[type = submit]:hover {
+    transform: scale(1.05);
+    background-color: #0119f4;
+}
+
+.img-upload i {
+    color: rgb(5, 5, 118);
+    font-size: 60px;
+    transform: 0.7s ease;
+}
+
+.img-upload i:hover {
+    transform: scale(1.05);
+    color: #162cf1;
+}
+
+.form-paying input[type = submit] {
+    background-color: rgb(8, 8, 128);
+    font-size: 22.5px;
+    text-align: center;
+    width: 24.5em;
+    height: 90px;
+    color: #fcfbfb;
+    border-radius: 20px;
+}
+
+.paying-icon img {
+    height: 100px;
+    width: 160px;
+    padding-left:  35px;
+}
+
+.copier-btn {
+    position: absolute;
+    background-color: rgb(5, 5, 118);
+    color: #fff;
+    top: 605px;
+    right: 626px;
+    height: 74px;
+    width: 122px;
+    border-radius: 13px;
+    transform: 0.7s ease;
+}
+
+.copier-btn:hover {
+    transform: scale(1.025);
+    background-color: #162cf1;
+}
+
+.Bont-Trans-Img img {
+    width: 220px;
+    height: 160px;
+}
+
+.form-login {
+    background: #fff;
+    padding: 3em;
+    width: 600px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px rgba(223, 217, 217, 0.3);
+    transform: 0.5s ease;
+}
+
+.form-login h2 {
+    color: rgb(5, 5, 118);
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid silver;
+}
+
+.form-login div {
+    padding: 4px 0px; 
+    margin: 40px 0px; 
+    font-size: 1.5em;
+    color: rgb(5, 5, 118);
+
+}
+ 
+.form-login input {
+    background: transparent;
+    width: 20em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.form-login input[type = submit] {
+    background-color: rgb(5, 5, 118);
+    font-size: 22.5px;
+    width: 22.5em;
+    color: #fcfbfb;
+    border-radius: 20px;
+    transform: 0.5s ease;
+}
+
+.form-login input[type = submit]:hover {
+    transform: scale(1.05);
+    background-color: #0119f4;
+}
+
+.form-signin {
+    background: #fff;
+    padding: 3em;
+    width: 600px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px rgba(223, 217, 217, 0.3);
+}
+.form-signin h2 {
+    color: rgb(5, 5, 118);
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid silver;
+}
+.form-signin div {
+    padding: 6px 0px; 
+    margin: 40px 0px; 
+    font-size: 1.9em;
+    color: rgb(5, 5, 118);
+
+}
+.form-signin input {
+    background: transparent;
+    width: 20em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 10px;
+}
+.form-signin input[type = submit] {
+    background-color: #050576;
+    font-size: 22.5px;
+    width: 22.5em;
+    height: 90px;
+    color: #fcfbfb;
+    border-radius: 20px;
+    transform: 0.5s ease;
+}
+.form-signin input[type = submit]:hover {
+    transform: scale(1.05);
+    background-color: #0119f4;
+}
+
+input[type="text"], input[type="email"], input[list="TypeForfaits"], input[list="TypeAssistance"],input[type="tel"], input[type="password"], input[type="submit"] {
+    font-size: 25px;
+}
+textarea {
+    font-size: 25px;
+}
+
+.top-footer {
+    background-color: #bebebe;
+    width: 100%;
+    height: 600px;
+}
+.top-footer h2 {
+    text-align: center;
+    color: #000;
+}
+.top-footer P {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    color: #000;
+}
+.f-info {
+    display: flex;
+    flex-direction: column;
+}
+.f-info > div {
+    display: flex;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+.f-info i {
+    color: #000;
+    padding: 10px 0px;
+    font-size: 35px;
+    width: 50px;
+    height: 60px;
+    transform: 0.5s ease;
+}
+.f-info p {
+    font-size: 16px;
+    font-weight: 600;
+    width: 780px;
+    text-align:initial;
+    padding-left: 40px;
+    color: #000;
+}
+.f-info i:hover {
+    transform: scale(1.05);
+}
+
+
+.f-links i {
+    color: #000;
+    font-size: 35px;
+    padding: 10px 13px;
+    position: relative;
+    bottom: 240px;
+    right: -1095px;
+    transform: 0.5s ease;
+}
+.f-links i:hover {
+    transform: scale(1.05);
+}
+.f-links p {
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    bottom: 240px;
+    right: -1095px;
+}
+
+footer {
+    background-color: #04006e;
+    height: 90px;
+}
+
+.footer-title {
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+@media (max-width: 1023px) {
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .navigation {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

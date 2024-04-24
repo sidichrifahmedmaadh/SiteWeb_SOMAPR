@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="style.css">
+    <Link rel="stylesheet" href="demande.html">
+    <script src="main.js"></script>
+    <title>Demande d'Assistance</title>
+
+</head>
+
+<body>
+
+    <header>
+        <a class="navbar-brand" href="https://somapr.com/fr"> <img src="images/logo.png" alt=""></a>
+        <nav class="navigation">
+            <a href="index.html">Accueil</a>
+            <a href="#Services">Services</a>
+            <a href="Demande.html" target="_blank">Demande d'Assistance</a>
+            <a href="#Contact">Contact</a>
+            <a href="login.html" target="_blank">Se connecter</a>
+        </nav>
+    </header>
+
+    <section class="forms" id="type_assistance">
+        <div class="content">
+
+            <form onsubmit="estimerMontantEtRediriger(); return false;">
+
+                <div class="form">
+                    <h2>Bienvenue 😊 <br>
+                        Comment pouvons-nous vous servir ?</h2>
+
+                    <div>
+                        <label for="Nom">Votre Nom</label> <br>
+                        <input type="text" id="Nom" minlength="3" maxlength="15"
+                        name="Name" placeholder="Nom" autofocus required>
+                    </div>
+    
+                    <div>
+                        <label for="Numero">Votre Téléphone</label> <br>
+                        <input type="tel" id="Numero"
+                        name="Phone Number"
+                        placeholder = "Format : 1-2345678" maxlength="9" minlength="9"
+                        pattern="[2-4]{1}-[0-9]{7}" required>
+                    </div>
+    
+                    <div>
+                        <input type="hidden" id="type" value="demande_assistance">
+                        <label for="Assistance">Type d'Assistance</label> <br>
+                        <input list="TypeAssistance" name="TypeAssistance" id="Assistance" required>
+                        <datalist id="TypeAssistance">
+                            <option value="Services de remorquage">
+                            <option value="Services de roue">
+                            <option value="Services de batterie">
+                            <option value="Services du carburant">
+                            <option value="Services d'ouverture des serrures">
+                            <option value="Services remplissage du gaz">
+                            <option value="D'autre">
+                        </datalist>
+                    </div>
+
+                    <div class="location">
+                        <label for="location">Localisation</label> <br>
+                        <p class="loc-img" onclick="obtenirLocalisation()" aria-required="false">
+                            <img src="images/location.jpeg" alt="" title="Click pour obtenir Localisation">
+                        </p>
+                    </div>
+
+                    <div>
+                        <label for="Message">Message</label> <br>
+                        <textarea name="Message" id="Message" title="Texte" cols="30" rows="5" placeholder="Texte"></textarea>
+                    </div>
+                    
+                    <div>
+                        <input type="submit" class="submits" value = "Envoyer">
+                    </div>
+
+                </div>
+                
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">&copy; 2024 SOMAPR. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
