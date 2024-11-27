@@ -5,3 +5,9 @@ This project is my first project in the world of the web, I am creating this web
 End Thank you...❤️
 Nouakchott 04/24/24.
 
+  <p align="center">
+   	<b>
+		If you like it, give the <a href="https://github.com/sidichrifahmedmaadh/GoogleInterfaceSimulation"> project </a> a star on Github and 
+		share with your friends!! I will be happy with it! ❤️
+	</b>
+  </p>
